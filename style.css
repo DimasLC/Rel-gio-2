@@ -1,0 +1,55 @@
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.full {
+  display: flex ;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 10rem;
+    text-align: center;
+    color: beige;
+}
+
+.relogio {
+    font-size: 35px;
+}
+
+.card {
+    box-sizing: border-box;
+    width: 250px;
+    height: 200px;
+    background: rgba(183, 0, 255, 0.425);
+    border: 1px solid white;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 12px 17px 51px rgba(155, 11, 168, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
+  }
+  
+  .card:hover {
+    border: 1px solid black;
+    transform: scale(1.2);
+  }
+  
+  .card:active {
+    transform: scale(1) rotateZ(1.9deg);
+  }
